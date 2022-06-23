@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Ubuntu:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
+}
+#bgimage{
+    background-image: url(image/top-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* menu section style start */
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: crimson;
+    text-decoration: none;
+}
+a.logo:hover{
+    color: blueviolet;
+}
+nav {
+    padding-right: 150px;
+}
+
+nav a {
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 30px;
+}
+nav a:hover{
+   color: blueviolet;
+}
+/* menu section style end */
+
+/* home section style start */
+
+section.HOME {
+    display: flex;
+    margin-top: 7%;
+}
+
+section.HOME h1 {
+    font-size: 30px;
+    color: crimson;
+}
+
+section.HOME h3 {
+    font-size: 25px;
+}
+
+section.HOME p {
+    color: #666;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.HOMEImg{
+    padding-left: 30%;
+    margin-top: 35px;
+}
+
+
+/* home section style end */
+
+/* btn style start */
+a.btn {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    background: #333;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+a.btn:hover{
+    background: none;
+    color: blueviolet;
+}
+/* btn style end */
+
+/* sectitle style start */
+.sectitle h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/* sectitle style end */
+
+/* first-section style start */
+section.first-section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 5%;
+}
+
+.first-grid {
+    width: 250px;
+}
+.first-grid p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #666;
+}
+
+.first1-grid {
+    width: 250px;
+    background: crimson;
+}
+
+.first1-grid h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.first1-grid p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.first2-grid {
+    width: 250px;
+    background: blueviolet;
+}
+
+.first2-grid h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.first2-grid p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.first3-grid {
+    width: 250px;
+    background: #333;
+}
+
+.first3-grid h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.first3-grid p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.first1-grid:hover{
+    background: none;
+    color: #333;
+}
+
+.first2-grid:hover{
+    background: none;
+}
+
+.first3-grid:hover{
+    background: none;
+    
+}
+.first1-grid:hover h2{
+    color: black;
+}
+.first2-grid:hover h2{
+    color: black;
+}
+.first3-grid:hover h2{
+    color: black;
+}
+.first1-grid:hover p{
+    color: #666;
+}
+.first2-grid:hover p{
+    color: #666;
+}
+.first3-grid:hover p{
+    color: #666;
+}
+/* first-section style end */
+
+/* CONTACT-section style start */
+.CONTACT{
+    background-image: url(image/bag.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.secTitle h2 {
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.CONTACT .field.email {
+    font-size: 20px;
+}
+
+.CONTACT input[type="email"] {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 5px;
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.CONTACT button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 42px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    background: blueviolet;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.CONTACT button:hover{
+    background: none;
+    color: blueviolet;
+}
+/* CONTACT-section style end */
+
+/* third-section style start */
+.third-section{
+    background-image: url(image/three-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.Top-tips {
+    width: 300px;
+    margin-bottom: 6%;
+}
+
+.Top-tips h3 {
+    font-size: 20px;
+}
+
+.Top-tips p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #666;
+}
+/* third-section style end */
+/* fourth-section style start */
+.frutis {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 8%;
+}
+
+.sectitle p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #666;
+}
+/* fourth-section end */
+
+/* five-section style start */
+.five-section{
+    background-image: url(image/four-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px 70px;
+}
+
+.desctitle h2 {
+    font-size: 30px;
+    padding: 15px 0px;
+    position: relative;
+}
+
+.desctitle h2:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    background: blueviolet;
+    width: 232px;
+    border: 7px solid blueviolet;
+    right: 79%;
+}
+
+.desctitle p {
+    font-size: 17px;
+    font-weight: 500;
+}
+/* five-section style end */
+
+/* ABOUT-section style start */
+.ABOUT{
+    background-image: url(image/five-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px 70px
+}
+/*ABOUT-section style end */
+
+/* footer style start */
+footer {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+footer h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer  h4 a {
+    color: crimson;
+}
+/* footer style end */
